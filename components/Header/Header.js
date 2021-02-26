@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <Row type="flex" justify="center">
-        <Col xs={24} sm={24} md={10} lg={10} xl={10} className={styles.header_left}>
+        <Col xs={24} sm={24} md={10} lg={15} xl={12} className={styles.header_left}>
           <span className={styles.header_logo}>技术派</span>
           <span className={styles.header_txt}>专注前端开发，每年100集免费视频</span>
         </Col>
