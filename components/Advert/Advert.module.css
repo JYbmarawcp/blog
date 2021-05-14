@@ -1,4 +1,5 @@
 .ad_div {
+  composes: comm_box from "../../styles/Home.module.css";
   margin-top: .5rem;
 }
 

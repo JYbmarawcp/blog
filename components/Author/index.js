@@ -5,7 +5,7 @@ import styles from './Author.module.css'
 
 const Author = () => {
   return (
-    <div className={styles.author_div+" comm_box"}>
+    <div className={styles.author_div}>
       <div><Avatar size={100} src="https://blogimages.jspang.com/blogtouxiang1.jpg" /></div>
       <div className={styles.author_introduction}>
         因为美好的东西都是免费的，比如水、阳光和空气，所以本站视频全部免费。
